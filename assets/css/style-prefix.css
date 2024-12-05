@@ -4476,7 +4476,6 @@ textarea.input {
 }
 
 .user-info h5 {
-  color: var(--salmon-pink);
   font-size: 14px;
   font-weight: 500;
 }
@@ -4539,9 +4538,4 @@ textarea.input {
 .info {
   display: grid;
   text-align: left;
-}
-
-/*==== LOGO UPDATE ====*/
-.pad-remove{
-  padding: 0 !important;
 }

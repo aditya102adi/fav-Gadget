@@ -101,12 +101,12 @@ if(!isset($_SESSION['user_name'])){
 
         </div>
 
-        <div class="header-main pad-remove">
+        <div class="header-main">
 
             <div class="container">
 
                 <a href="#" class="header-logo">
-                    <img src="./assets/images/Fav.gif" width="205px " height="125px">
+                    <img src="./assets/images/Fav.gif" alt="Anon's logo" width="120" height="75">
                 </a>
 
                 <div class="header-search-container">
@@ -132,7 +132,7 @@ if(!isset($_SESSION['user_name'])){
                                         <h3><?php
                                             if (isset($_SESSION['user_name'])) {
                                                 $naam = $_SESSION['user_name'];
-                                                echo "Hello! $naam";
+                                                echo "Hello!, $naam";
                                             } else {
                                                 echo "Name not found in session.";
                                             }
@@ -166,13 +166,13 @@ if(!isset($_SESSION['user_name'])){
                                     <span>></span>
                                 </a>
 
-                                <a href="cart.php" class="sub-menu-link">
+                                <a href="#" class="sub-menu-link">
                                     <i class="fa-solid fa-bag-shopping"></i>
                                     <p>Orders</p>
                                     <span>></span>
                                 </a>
 
-                                <a href="wishlist.php" class="sub-menu-link">
+                                <a href="#" class="sub-menu-link">
                                     <i class="fa-solid fa-heart-circle-check"></i>
                                     <p>Wishlist</p>
                                     <span>></span>
@@ -416,6 +416,12 @@ if(!isset($_SESSION['user_name'])){
                             </li>
 
                         </ul>
+                    </li>
+
+
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Blog</a>
                     </li>
 
                     <li class="menu-category">

@@ -90,12 +90,12 @@
 
         </div>
 
-        <div class="header-main pad-remove">
+        <div class="header-main">
 
             <div class="container">
 
                 <a href="#" class="header-logo">
-                    <img src="./assets/images/Fav.gif" width="205px " height="125px">
+                    <img src="./assets/images/Fav.gif" alt="Anon's logo" width="120" height="75">
                 </a>
 
                 <div class="header-search-container">
@@ -389,6 +389,11 @@
                         </ul>
                     </li>
 
+
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Blog</a>
+                    </li>
 
                     <li class="menu-category">
                         <a href="#" class="menu-title">Contact </a>

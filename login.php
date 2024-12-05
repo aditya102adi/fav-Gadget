@@ -59,7 +59,7 @@ if (isset($_POST['submit'])) {
 
   <div class="container  small">
     <div class="product-featured">
-      <h2 class="title-second align">Log In To @fAv-gADGET</h2>
+      <h2 class="title-second align">Log Back To fAv-gADGET</h2>
       <div class="showcase-container shadow">
         <div class="showcase">
           <div class="showcase-content half">
@@ -82,7 +82,7 @@ if (isset($_POST['submit'])) {
             </form>
           </div>
           <div class="showcase-banner">
-            <video class="newsletter-video my-video" autoplay muted loop src="./assets/videos/iphone-14.mp4"></video>
+            <video class="newsletter-video my-video" autoplay controls muted loop src="./assets/videos/iphone-14.mp4"></video>
           </div>
         </div>
       </div>

@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </form>
           </div>
           <div class="showcase-banner">
-            <video class="newsletter-video adi" autoplay muted loop src="./assets/videos/airpods.mp4"></video>
+            <video class="newsletter-video adi" autoplay controls muted loop src="./assets/videos/airpods.mp4"></video>
           </div>
         </div>
       </div>
